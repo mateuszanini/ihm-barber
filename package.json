@@ -1,0 +1,33 @@
+{
+  "name": "saloon-barber-shop",
+  "version": "1.0.0",
+  "description": "Atividade Criativa da disciplina de IHM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuszanini/ihm-barber.git"
+  },
+  "keywords": [
+    "barber",
+    "shop",
+    "ihm",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Mateus Zanini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateuszanini/ihm-barber/issues"
+  },
+  "homepage": "https://github.com/mateuszanini/ihm-barber#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.98.2"
+  }
+}
