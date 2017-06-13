@@ -1,0 +1,34 @@
+.riogrande-font{
+    font-family: 'RioGrande';
+}
+.showguide-font{
+    font-family: 'ShowGuide';
+}
+.losbanditos-font{
+    font-family: 'LosBanditos';
+}
+
+.item-menu, ul li a.btn{
+    font-family: 'LosBanditos';
+}
+
+.parallax-container {
+      height: 250px;
+    }
+
+.brand-logo{
+    background-color: #212121;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border: 3px solid #ffc107;
+    border-top: none;
+}
+.brand-logo h1{
+    padding: 0 10px;
+}
+.titulo{
+    margin-top: 0px;
+}
+.subtitulo{
+    margin-top: -30px;
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'RioGrande';
+    src: url('fonts/RioGrande.eot');
+    src: url('fonts/RioGrande.eot') format('embedded-opentype'),
+         url('fonts/RioGrande.woff2') format('woff2'),
+         url('fonts/RioGrande.woff') format('woff'),
+         url('fonts/RioGrande.ttf') format('truetype'),
+         url('fonts/RioGrande.svg#RioGrande') format('svg');
+}
+
+
+@font-face {
+    font-family: 'LosBanditos';
+    src: url('fonts/IFCLOSBANDITOS.eot');
+    src: url('fonts/IFCLOSBANDITOS.eot') format('embedded-opentype'),
+         url('fonts/IFCLOSBANDITOS.woff2') format('woff2'),
+         url('fonts/IFCLOSBANDITOS.woff') format('woff'),
+         url('fonts/IFCLOSBANDITOS.ttf') format('truetype'),
+         url('fonts/IFCLOSBANDITOS.svg#IFCLOSBANDITOS') format('svg');
+}
+
+@font-face {
+    font-family: 'ShowGuide';
+    src: url('fonts/showguide.eot');
+    src: url('fonts/showguide.eot') format('embedded-opentype'),
+         url('fonts/showguide.woff2') format('woff2'),
+         url('fonts/showguide.woff') format('woff'),
+         url('fonts/showguide.ttf') format('truetype'),
+         url('fonts/showguide.svg#showguide') format('svg');
+}

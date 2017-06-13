@@ -18,41 +18,79 @@
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css" media="screen,projection"
+    />
     <!--Import animate.css-->
     <link type="text/css" rel="stylesheet" href="node_modules/animate.css/animate.css" media="screen,projection" />
     <!--Import FontAwesome-->
     <link type="text/css" rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css" media="screen,projection" />
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
 
 </head>
 
-<body>
+<body class="grey darken-4">
+    <!-- NAV -->
+    <div class="navbar-fixed">
+        <nav class="grey darken-4">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center amber-text">
+                    <h1 class="riogrande-font titulo">(SALOON)</h1>
+                    <h4 class="showguide-font subtitulo">Barber Shop</h4>
+                </a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#servicos" class="item-menu"><i class="fa fa-scissors" aria-hidden="true"></i> Serviços</a></li>
+                    <li><a href="#produtos" class="item-menu"><i class="fa fa-paint-brush" aria-hidden="true"></i> Produtos</a></li>
+                    <li><a href="#galeria" class="item-menu"><i class="fa fa-camera-retro" aria-hidden="true"></i> Galeria</a></li>
+                    <li><a href="#contato" class="item-menu"> <i class="fa fa-phone" aria-hidden="true"></i> Contato</a></li>
+                </ul>
+
+                <ul id="nav-mobile-secondary" class="right hide-on-med-and-down">
+                    <li><a href="#!" class="item-menu"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Loja</a></li>
+                    <li><a class="waves-effect waves-light btn amber black-text">Agenda</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <div class="parallax-container">
-        <div class="parallax"><img src="http://img02.deviantart.net/76b3/i/2016/339/1/8/deadpool_png__5_by_anna_x_anarchy-daqlvhx.png"></div>
+        <div class="parallax"><img src="assets/img/parallax-1.jpg"></div>
     </div>
-    <div class="section red">
+    <div id="servicos" class="section scrollspy white">
         <div class="row container">
-            <h2 class="header">Parallax</h2>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than
-                the foreground content while scrolling.</p>
+            <h2 class="header riogrande-font">(Servicos)</h2>
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="http://img02.deviantart.net/76b3/i/2016/339/1/8/deadpool_png__5_by_anna_x_anarchy-daqlvhx.png"></div>
+        <div class="parallax"><img src="assets/img/parallax-1.jpg"></div>
+    </div>
+    <div id="produtos" class="section scrollspy white">
+        <div class="row container">
+            <h2 class="header riogrande-font">(Produtos)</h2>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/img/parallax-2.jpg"></div>
+    </div>
+    <div id="galeria" class="section scrollspy white">
+        <div class="row container">
+            <h2 class="header riogrande-font">(Galeria)</h2>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/img/parallax-2.jpg"></div>
+    </div>
+    <div id="contato" class="section scrollspy white">
+        <div class="row container">
+            <h2 class="header riogrande-font">(Contato)</h2>
+        </div>
     </div>
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.parallax').parallax();
-        });
-    </script>
 </body>
 
 </html>
