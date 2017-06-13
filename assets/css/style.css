@@ -1,3 +1,4 @@
+/*FONTES*/
 .riogrande-font{
     font-family: 'RioGrande';
 }
@@ -12,10 +13,20 @@
     font-family: 'LosBanditos';
 }
 
+/*PARALLAX*/
 .parallax-container {
       height: 250px;
-    }
+}
 
+/*SCROLL TOP*/
+.scrollToTop{
+	position:fixed;
+	bottom: 5px;
+    right: 5px;
+	display: none;
+}
+
+/*LOGO*/
 .brand-logo{
     background-color: #212121;
     border-bottom-left-radius: 60%;
@@ -31,4 +42,9 @@
 }
 .subtitulo{
     margin-top: -30px;
+}
+
+/*SLIDER INDICATOR*/
+.slider .indicators .indicator-item.active {
+    background-color: #ffc107;
 }
