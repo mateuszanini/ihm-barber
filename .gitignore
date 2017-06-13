@@ -1,4 +1,4 @@
-node_modules/*
+node_modules/
 
 !node_modules/materialize-css/dist/css/materialize.css
 !node_modules/animate.css/animate.css
