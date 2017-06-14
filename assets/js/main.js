@@ -5,6 +5,7 @@ function BarberShop() {
     $(".button-collapse").sideNav();
     $('.tooltipped').tooltip({delay: 50});
     $('.slider').slider();
+	$('.collapsible').collapsible();
 
     //ALTERA COR DO TEXTO
     $('.item-menu').addClass('amber-text');

@@ -48,3 +48,16 @@
 .slider .indicators .indicator-item.active {
     background-color: #ffc107;
 }
+
+/*MORE IMAGES*/
+.collapsible{
+    border-color: #ffc107;
+}
+.collapsible .collapsible-header{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212121;
+}
+.collapsible .collapsible-body{
+    border-color: #ffc107;
+}
