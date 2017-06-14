@@ -1,63 +1,143 @@
 /*FONTES*/
-.riogrande-font{
+
+.riogrande-font {
     font-family: 'RioGrande';
 }
-.showguide-font{
+
+.showguide-font {
     font-family: 'ShowGuide';
 }
-.losbanditos-font{
+
+.losbanditos-font {
     font-family: 'LosBanditos';
 }
 
-.item-menu, ul li a.btn{
+
+/*.item-menu, ul li a.btn{
     font-family: 'LosBanditos';
-}
+}*/
+
 
 /*PARALLAX*/
+
 .parallax-container {
-      height: 200px;
+    height: 200px;
 }
+
 
 /*SCROLL TOP*/
-.scrollToTop{
-	position:fixed;
-	bottom: 5px;
+
+.scrollToTop {
+    position: fixed;
+    bottom: 5px;
     right: 5px;
-	display: none;
+    display: none;
 }
 
+
 /*LOGO*/
-.brand-logo{
+
+.brand-logo {
     background-color: #212121;
     border-bottom-left-radius: 60%;
     border-bottom-right-radius: 60%;
     border: 3px solid #ffc107;
     border-top: none;
 }
-.brand-logo h1{
+
+.brand-logo h1 {
     padding: 0 10px;
 }
-.titulo{
+
+.titulo {
     margin-top: 0px;
 }
-.subtitulo{
+
+.subtitulo {
     margin-top: -30px;
 }
 
+
 /*SLIDER INDICATOR*/
+
 .slider .indicators .indicator-item.active {
     background-color: #ffc107;
 }
 
+
 /*MORE IMAGES*/
-.collapsible{
+
+.collapsible {
     border-color: #ffc107;
 }
-.collapsible .collapsible-header{
+
+.collapsible .collapsible-header {
     background-color: #ffc107;
     border-color: #ffc107;
     color: #212121;
 }
-.collapsible .collapsible-body{
+
+.collapsible .collapsible-body {
     border-color: #ffc107;
+}
+
+
+/*FORMULARIO*/
+
+#mensagem {
+    height: 90px;
+}
+
+#enviar {
+    margin-top: 17px;
+}
+
+
+/* label color */
+
+.input-field label {
+    color: #212121;
+}
+
+
+/* label focus color */
+
+.input-field input[type=text]:focus+label, .input-field input[type=email]:focus+label, .input-field input[type=tel]:focus+label, .input-field #mensagem:focus+label {
+    color: #212121;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field input[type=tel]:focus, .input-field #mensagem:focus  {
+    border-bottom: 1px solid #fafafa ;
+    box-shadow: 0 1px 0 0 #fafafa ;
+}
+
+.input-field input[type=text], .input-field input[type=email], .input-field input[type=tel], .input-field #mensagem  {
+    border-bottom: 1px solid #212121 ;
+    box-shadow: 0 1px 0 0 #212121 ;
+}
+
+
+/* valid color */
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+
+/* invalid color */
+
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #000;
 }
