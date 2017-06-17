@@ -141,3 +141,42 @@
 .input-field .prefix.active {
     color: #000;
 }
+
+/*footer social*/
+.media-social .fa{
+    transition: 0.3s;
+}
+.media-social .fa:hover{
+    color: #ffc107;
+}
+
+.page-footer ul{
+    font-size: 16px;
+}
+
+/*nav footer*/
+.nav-footer{
+    border-top: 1px solid #ffc107;
+    position: fixed;
+    bottom: -25px;
+    z-index: 5;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-footer{
+        bottom: -45px;
+    }
+    .scrollToTop {
+        bottom: 55px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .scrollToTop {
+        bottom: 65px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+}
