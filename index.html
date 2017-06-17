@@ -50,17 +50,18 @@
                         <li><a class="waves-effect waves-light btn amber grey-text text-darken-4">Agenda</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="nav-content hide-on-large-only">
-                <a class="btn-floating btn-large halfway-fab waves-effect waves-light dropdown-button amber" data-activates='dropdown1'>
+                <div class="nav-content hide-on-large-only">
+                    <a class="btn-floating btn-large halfway-fab waves-effect waves-light dropdown-button amber" data-activates='dropdown1'>
                     <i class="fa fa-plus" aria-hidden="true"></i>
                 </a>
-                <ul id='dropdown1' class='dropdown-content'>
-                    <li><a href="#!" class="grey-text text-darken-4">Loja</a></li>                    
-                    <li class="divider"></li>
-                    <li><a href="#!" class="grey-text text-darken-4">Agenda</a></li>
-                </ul>
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li><a href="#!" class="grey-text text-darken-4">Loja</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!" class="grey-text text-darken-4">Agenda</a></li>
+                    </ul>
+                </div>
             </div>
+
         </nav>
     </div>
     <!--SCROLL TOP-->
@@ -72,16 +73,16 @@
             <div class="nav-wrapper grey darken-4">
                 <ul>
                     <div class="col m3 s3 center-align">
-                        <li><a href="#servicos" class="item-menu"><i class="fa fa-scissors" aria-hidden="true"></i><span class="hide-on-small-only"> Serviços</span></a></li>
+                        <li id="menu-servicos"><a class="item-menu"><i class="fa fa-scissors" aria-hidden="true"></i><span class="hide-on-small-only"> Serviços</span></a></li>
                     </div>
                     <div class="col m3 s3 center-align">
-                        <li><a href="#produtos" class="item-menu"><i class="fa fa-paint-brush" aria-hidden="true"></i><span class="hide-on-small-only"> Produtos</span</a></li>
+                        <li id="menu-produtos"><a class="item-menu"><i class="fa fa-paint-brush" aria-hidden="true"></i><span class="hide-on-small-only"> Produtos</span</a></li>
                     </div>
                     <div class="col m3 s3 center-align">
-                        <li><a href="#galeria" class="item-menu"><i class="fa fa-camera-retro" aria-hidden="true"></i><span class="hide-on-small-only"> Galeria</span</a></li>
+                        <li id="menu-galeria"><a class="item-menu"><i class="fa fa-camera-retro" aria-hidden="true"></i><span class="hide-on-small-only"> Galeria</span</a></li>
                     </div>
                     <div class="col m3 s3 center-align">
-                        <li><a href="#contato" class="item-menu"> <i class="fa fa-phone" aria-hidden="true"></i><span class="hide-on-small-only"> Contato</span</a></li>
+                        <li id="menu-contato"><a class="item-menu"> <i class="fa fa-phone" aria-hidden="true"></i><span class="hide-on-small-only"> Contato</span</a></li>
                     </div>
                 </ul>
             </div>
@@ -119,6 +120,59 @@
     <div id="servicos" class="section scrollspy grey darken-4 white-text">
         <div class="row container">
             <h2 class="header riogrande-font">(Servicos)</h2>
+            <div class="row">
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/servicos/servico-1.jpg">
+                            <span class="card-title"><span class="grey-text text-darken-4 white">Lorem Ipsum</span></span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#!" class="left grey-text text-darken-4 white"><i class="fa fa-clock-o" aria-hidden="true"></i> 60 min</a>
+                            <a href="#!" class="right grey-text text-darken-4 white"><i class="fa fa-money" aria-hidden="true"></i> R$ 50,00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/servicos/servico-2.jpg">
+                            <span class="card-title"><span class="grey-text text-darken-4 white">Lorem Ipsum</span></span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#!" class="grey-text text-darken-4 white"><i class="fa fa-clock-o" aria-hidden="true"></i> 60 min</a>
+                            <a href="#!" class="right grey-text text-darken-4 white"><i class="fa fa-money" aria-hidden="true"></i> R$ 50,00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/servicos/servico-3.jpg">
+                            <span class="card-title"><span class="grey-text text-darken-4 white">Lorem Ipsum</span></span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#!" class="grey-text text-darken-4 white"><i class="fa fa-clock-o" aria-hidden="true"></i> 60 min</a>
+                            <a href="#!" class="right grey-text text-darken-4 white"><i class="fa fa-money" aria-hidden="true"></i> R$ 50,00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/servicos/servico-4.jpg">
+                            <span class="card-title"><span class="grey-text text-darken-4 white">Lorem Ipsum</span></span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#!" class="grey-text text-darken-4 white"><i class="fa fa-clock-o" aria-hidden="true"></i> 60 min</a>
+                            <a href="#!" class="right grey-text text-darken-4 white"><i class="fa fa-money" aria-hidden="true"></i> R$ 50,00</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a class="waves-effect waves-light btn col l6 offset-l3 m8 offset-m2 s12 amber grey-text text-darken-4 ver-mais">Ver mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
         </div>
     </div>
     <div class="parallax-container">
@@ -127,6 +181,79 @@
     <div id="produtos" class="section scrollspy amber">
         <div class="row container">
             <h2 class="header riogrande-font grey-text text-darken-4">(Produtos)</h2>
+             <div class="row">
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/produtos/produto-1.jpg">
+                            <span class="card-title"><span class="grey-text text-darken-4 white">Lorem Ipsum</span></span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light amber"><i class="fa fa-cart-plus grey-text text-darken-4" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card-content grey-text text-darken-4 white">
+                            <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet ante lobortis, pretium
+                                sapien sed, vestibulum ante.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#!" class="grey-text text-darken-4 white"><i class="fa fa-money" aria-hidden="true"></i> R$ 50,00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/produtos/produto-2.jpg">
+                            <span class="card-title"><span class="grey-text text-darken-4 white">Lorem Ipsum</span></span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light amber"><i class="fa fa-cart-plus grey-text text-darken-4" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card-content grey-text text-darken-4 white">
+                            <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet ante lobortis, pretium
+                                sapien sed, vestibulum ante.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#!" class="grey-text text-darken-4 white"><i class="fa fa-money" aria-hidden="true"></i> R$ 50,00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/produtos/produto-3.jpeg">
+                            <span class="card-title"><span class="grey-text text-darken-4 white">Lorem Ipsum</span></span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light amber"><i class="fa fa-cart-plus grey-text text-darken-4" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card-content grey-text text-darken-4 white">
+                            <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet ante lobortis, pretium
+                                sapien sed, vestibulum ante.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#!" class="grey-text text-darken-4 white"><i class="fa fa-money" aria-hidden="true"></i> R$ 50,00</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/produtos/produto-4.jpg">
+                            <span class="card-title"><span class="grey-text text-darken-4 white">Lorem Ipsum</span></span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light amber"><i class="fa fa-cart-plus grey-text text-darken-4" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card-content grey-text text-darken-4 white">
+                            <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet ante lobortis, pretium
+                                sapien sed, vestibulum ante.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#!" class="grey-text text-darken-4 white"><i class="fa fa-money" aria-hidden="true"></i> R$ 50,00</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a class="waves-effect waves-light btn col l6 offset-l3 m8 offset-m2 s12 white-text grey darken-4 ver-mais">Ver mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
         </div>
     </div>
     <div class="parallax-container">
@@ -135,6 +262,47 @@
     <div id="galeria" class="section scrollspy grey darken-4 white-text">
         <div class="row container">
             <h2 class="header riogrande-font">(Galeria)</h2>
+            <div class="row">
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 1 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-1.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 2 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-2.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 3 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-3.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 4 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-4.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 5 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-5.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 6 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-6.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 7 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-7.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 9 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-9.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 10 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-10.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 11 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-11.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 12 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-12.jpg">
+                </div>
+                <div class="col l3 m4 s6">
+                    <img class="materialboxed" data-caption="Galeria 8 - Lorem ipsum dolor sit amet." src="assets/img/galeria/galeria-8.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <a class="waves-effect waves-light btn col l6 offset-l3 m8 offset-m2 s12 amber grey-text text-darken-4 ver-mais">Ver mais <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
             <!--<ul class="collapsible grey darken-4 amber-text" data-collapsible="accordion">
                 <li>
                     <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
