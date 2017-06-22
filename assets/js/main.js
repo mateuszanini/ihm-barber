@@ -68,10 +68,14 @@ function BarberShop() {
 		enter: 13,
 		left: 37,
 		right: 39,
-		pauseP: 80,
-		pausep: 112,
-		pauseK: 75,
-		pausek: 107
+		pMai: 80,
+		pMin: 112,
+		kMai: 75,
+		kMin: 107,
+		jMin: 106,
+		jMai: 74,
+		lMin: 108,
+		lMai: 76
 	};
 
 	var paused = 0;
@@ -90,13 +94,13 @@ function BarberShop() {
 				scrollTop: 0
 			}, 500);
 		}
-		if (event.which == KEYBOARD.left) {
+		else if (event.which == KEYBOARD.left || event.which == KEYBOARD.jMai || event.which == KEYBOARD.jMin) {
 			$('.slider').slider('prev');
 		}
-		else if (event.which == KEYBOARD.right) {
+		else if (event.which == KEYBOARD.right || event.which == KEYBOARD.lMai || event.which == KEYBOARD.lMin) {
 			$('.slider').slider('next');
 		}
-		else if (event.which == KEYBOARD.pauseK || event.which == KEYBOARD.pausek) {
+		else if (event.which == KEYBOARD.kMai || event.which == KEYBOARD.kMin) {
 			if (paused) {
 				$('.slider').slider('start');
 				paused = 0;
